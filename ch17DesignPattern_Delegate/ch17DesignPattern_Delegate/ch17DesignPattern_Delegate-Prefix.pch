@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ch17DesignPattern_Delegate' target in the 'ch17DesignPattern_Delegate' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

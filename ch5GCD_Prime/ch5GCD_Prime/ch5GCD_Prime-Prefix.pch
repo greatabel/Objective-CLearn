@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ch5GCD_Prime' target in the 'ch5GCD_Prime' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

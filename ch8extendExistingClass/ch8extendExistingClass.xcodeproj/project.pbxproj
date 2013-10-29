@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5456891181CF9E2001689DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5456890181CF9E2001689DD /* Foundation.framework */; };
+		B5456894181CF9E2001689DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5456893181CF9E2001689DD /* main.m */; };
+		B5456898181CF9E2001689DD /* ch8extendExistingClass.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B5456897181CF9E2001689DD /* ch8extendExistingClass.1 */; };
+		B54568A3181D008D001689DD /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = B54568A2181D008D001689DD /* Foo.m */; };
+		B54568AB181D0F99001689DD /* NSObject+NSMutableDictionary_SortedKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = B54568AA181D0F99001689DD /* NSObject+NSMutableDictionary_SortedKeys.m */; };
+		B54568AE181D1232001689DD /* NSMutableString+GUID.m in Sources */ = {isa = PBXBuildFile; fileRef = B54568AD181D1232001689DD /* NSMutableString+GUID.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B545688B181CF9E2001689DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B5456898181CF9E2001689DD /* ch8extendExistingClass.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B545688D181CF9E2001689DD /* ch8extendExistingClass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ch8extendExistingClass; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5456890181CF9E2001689DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5456893181CF9E2001689DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5456896181CF9E2001689DD /* ch8extendExistingClass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ch8extendExistingClass-Prefix.pch"; sourceTree = "<group>"; };
+		B5456897181CF9E2001689DD /* ch8extendExistingClass.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ch8extendExistingClass.1; sourceTree = "<group>"; };
+		B54568A1181D008D001689DD /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
+		B54568A2181D008D001689DD /* Foo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
+		B54568A4181D021B001689DD /* Foo+privateMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foo+privateMethod.h"; sourceTree = "<group>"; };
+		B54568A9181D0F99001689DD /* NSObject+NSMutableDictionary_SortedKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSMutableDictionary_SortedKeys.h"; sourceTree = "<group>"; };
+		B54568AA181D0F99001689DD /* NSObject+NSMutableDictionary_SortedKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSMutableDictionary_SortedKeys.m"; sourceTree = "<group>"; };
+		B54568AC181D1232001689DD /* NSMutableString+GUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+GUID.h"; sourceTree = "<group>"; };
+		B54568AD181D1232001689DD /* NSMutableString+GUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+GUID.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B545688A181CF9E2001689DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5456891181CF9E2001689DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5456884181CF9E2001689DD = {
+			isa = PBXGroup;
+			children = (
+				B5456892181CF9E2001689DD /* ch8extendExistingClass */,
+				B545688F181CF9E2001689DD /* Frameworks */,
+				B545688E181CF9E2001689DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B545688E181CF9E2001689DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B545688D181CF9E2001689DD /* ch8extendExistingClass */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B545688F181CF9E2001689DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5456890181CF9E2001689DD /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5456892181CF9E2001689DD /* ch8extendExistingClass */ = {
+			isa = PBXGroup;
+			children = (
+				B54568AC181D1232001689DD /* NSMutableString+GUID.h */,
+				B54568AD181D1232001689DD /* NSMutableString+GUID.m */,
+				B5456893181CF9E2001689DD /* main.m */,
+				B5456897181CF9E2001689DD /* ch8extendExistingClass.1 */,
+				B5456895181CF9E2001689DD /* Supporting Files */,
+				B54568A1181D008D001689DD /* Foo.h */,
+				B54568A2181D008D001689DD /* Foo.m */,
+				B54568A4181D021B001689DD /* Foo+privateMethod.h */,
+				B54568A9181D0F99001689DD /* NSObject+NSMutableDictionary_SortedKeys.h */,
+				B54568AA181D0F99001689DD /* NSObject+NSMutableDictionary_SortedKeys.m */,
+			);
+			path = ch8extendExistingClass;
+			sourceTree = "<group>";
+		};
+		B5456895181CF9E2001689DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5456896181CF9E2001689DD /* ch8extendExistingClass-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B545688C181CF9E2001689DD /* ch8extendExistingClass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B545689B181CF9E2001689DD /* Build configuration list for PBXNativeTarget "ch8extendExistingClass" */;
+			buildPhases = (
+				B5456889181CF9E2001689DD /* Sources */,
+				B545688A181CF9E2001689DD /* Frameworks */,
+				B545688B181CF9E2001689DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ch8extendExistingClass;
+			productName = ch8extendExistingClass;
+			productReference = B545688D181CF9E2001689DD /* ch8extendExistingClass */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5456885181CF9E2001689DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = abel;
+			};
+			buildConfigurationList = B5456888181CF9E2001689DD /* Build configuration list for PBXProject "ch8extendExistingClass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5456884181CF9E2001689DD;
+			productRefGroup = B545688E181CF9E2001689DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B545688C181CF9E2001689DD /* ch8extendExistingClass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5456889181CF9E2001689DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5456894181CF9E2001689DD /* main.m in Sources */,
+				B54568A3181D008D001689DD /* Foo.m in Sources */,
+				B54568AB181D0F99001689DD /* NSObject+NSMutableDictionary_SortedKeys.m in Sources */,
+				B54568AE181D1232001689DD /* NSMutableString+GUID.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B5456899181CF9E2001689DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B545689A181CF9E2001689DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B545689C181CF9E2001689DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch8extendExistingClass/ch8extendExistingClass-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B545689D181CF9E2001689DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch8extendExistingClass/ch8extendExistingClass-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5456888181CF9E2001689DD /* Build configuration list for PBXProject "ch8extendExistingClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5456899181CF9E2001689DD /* Debug */,
+				B545689A181CF9E2001689DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B545689B181CF9E2001689DD /* Build configuration list for PBXNativeTarget "ch8extendExistingClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B545689C181CF9E2001689DD /* Debug */,
+				B545689D181CF9E2001689DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5456885181CF9E2001689DD /* Project object */;
+}

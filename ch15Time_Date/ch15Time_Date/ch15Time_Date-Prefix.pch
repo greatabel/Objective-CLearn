@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ch15Time_Date' target in the 'ch15Time_Date' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
