@@ -28,6 +28,7 @@
 		B58C31D41AA5E58A00167330 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B58C31E21AA6016A00167330 /* part2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = part2.h; sourceTree = "<group>"; };
 		B58C31E31AA6016A00167330 /* part2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = part2.m; sourceTree = "<group>"; };
+		B58C31E51AA604FE00167330 /* test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 				B58C31D41AA5E58A00167330 /* main.m */,
 				B58C31E21AA6016A00167330 /* part2.h */,
 				B58C31E31AA6016A00167330 /* part2.m */,
+				B58C31E51AA604FE00167330 /* test */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
