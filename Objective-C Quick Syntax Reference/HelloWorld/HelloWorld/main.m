@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "part2.h"
+
 
 int main(int argc, const char * argv[]) {
      //自动释放池存储于内存中的栈中遵循"先进后出"原则
@@ -101,6 +103,10 @@ int main(int argc, const char * argv[]) {
         NSFileManager *fileManager_D = [NSFileManager defaultManager];
         [fileManager_D
          removeItemAtPath:imageDir_D error:nil];
+        
+        //测试 objet定义
+        part2 *ps = [[part2 alloc] init];
+        [ps someMethod];
         
     }
     return 0;
