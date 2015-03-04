@@ -74,6 +74,30 @@
     NSNumber *lastNum = [numbers lastObject];
     
     NSUInteger index = [numbers indexOfObject:mynum];
+    for (id object in numbers) {
+        // do something with object
+        NSLog(@"%@",object);
+    }
+    
+    NSMutableArray *myArray = [NSMutableArray arrayWithArray:@[@-1,@22,@333]];
+    [myArray addObject:@4444];
+    [myArray removeObject:@-1];
+    [myArray enumerateObjectsUsingBlock:^(id object, NSUInteger index, BOOL *stop) {
+        NSLog (@"object->%@",object);
+    }];
+    [myArray exchangeObjectAtIndex:0 withObjectAtIndex:1];
+    for(id object in myArray){
+        NSLog(@"new way %@",object);
+    }
+    
+    //---NSDictionary
+    NSDictionary *d1 = @{@"one":@1,@"two":@22,@"three":@333.3};
+    for(id object in d1){
+        NSLog(@"dictionary= %@",object);
+         NSLog(@"key: %@, value: %@ \n", object, [d1 objectForKey:object]);
+    }
+    
+    
     
     
     
