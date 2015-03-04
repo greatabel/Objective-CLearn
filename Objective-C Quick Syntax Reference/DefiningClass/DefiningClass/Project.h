@@ -20,3 +20,9 @@
 
 
 @end
+
+@interface Project ()
+
+-(void)generateAnotherReport;
+
+@end

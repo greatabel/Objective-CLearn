@@ -10,6 +10,7 @@
 
 @implementation Project
 
+
 -(void)generateReport{
     
     NSLog(@"This is a report");
@@ -22,4 +23,10 @@
     NSLog(@"haha date is :%@",date);
 }
 
+-(void)generateAnotherReport{
+    NSLog(@"#Another report!");
+}
+
 @end
+
+

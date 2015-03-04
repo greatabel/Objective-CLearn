@@ -29,6 +29,8 @@ int main(int argc, const char * argv[]) {
         // 打印结果 正确当前时间 localDate = 2013-08-16 17:01:04 +0000
         NSLog(@"正确当前时间 localDate = %@",localDate);
         [ps generateReportAndAddThisString:@"本地测试" andThenAddThisDate:localDate];
+        
+        [ps generateAnotherReport];
     }
     return 0;
 }
