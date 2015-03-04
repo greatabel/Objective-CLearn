@@ -1,5 +1,5 @@
 //
-//  Project.h
+//  Task.h
 //  3Block
 //
 //  Created by abel on 15/3/4.
@@ -7,16 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Task.h"
 
-@interface Project : NSObject
+@interface Task : NSObject
 
 @property(strong) NSString *name;
-@property(strong) NSMutableArray *listOfTasks;
+@property(assign) BOOL done;
 
 -(void)generateReport;
-
-//need (copy)
-@property (copy) void (^makeCustomReport)(NSString *title);
 
 @end

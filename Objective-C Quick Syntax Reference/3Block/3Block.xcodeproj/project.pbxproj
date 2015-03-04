@@ -10,6 +10,7 @@
 		B58C32121AA6F6A600167330 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B58C32111AA6F6A600167330 /* main.m */; };
 		B58C321A1AA6F85C00167330 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = B58C32191AA6F85C00167330 /* Project.m */; };
 		B58C321D1AA6FD4500167330 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B58C321C1AA6FD4500167330 /* MyClass.m */; };
+		B58C32201AA700FE00167330 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = B58C321F1AA700FE00167330 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		B58C32191AA6F85C00167330 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
 		B58C321B1AA6FD4500167330 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
 		B58C321C1AA6FD4500167330 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		B58C321E1AA700FE00167330 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		B58C321F1AA700FE00167330 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				B58C32191AA6F85C00167330 /* Project.m */,
 				B58C321B1AA6FD4500167330 /* MyClass.h */,
 				B58C321C1AA6FD4500167330 /* MyClass.m */,
+				B58C321E1AA700FE00167330 /* Task.h */,
+				B58C321F1AA700FE00167330 /* Task.m */,
 			);
 			path = 3Block;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58C32201AA700FE00167330 /* Task.m in Sources */,
 				B58C321D1AA6FD4500167330 /* MyClass.m in Sources */,
 				B58C32121AA6F6A600167330 /* main.m in Sources */,
 				B58C321A1AA6F85C00167330 /* Project.m in Sources */,

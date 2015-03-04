@@ -62,6 +62,35 @@ int main(int argc, const char * argv[]) {
         NSString *mystring2 = [myInstance valueForKey:@"integerProperty"];
         NSLog(@"%@",mystring2);
         
+        NSLog(@"observer-------->");
+        Project *p1 = [[Project alloc]init];
+        p1.listOfTasks = [[NSMutableArray alloc]init];
+        p1.name = @"great abel";
+        
+        Task *t1 = [[Task alloc]init];
+        t1.name = @"task test1";
+        [p1.listOfTasks addObject:t1];
+        
+        Task *t2 = [[Task alloc]init];
+        t2.name = @"task test2";
+        [p1.listOfTasks addObject:t2];
+        
+        Task *t3 = [[Task alloc]init];
+        t3.name = @"task test3";
+        [p1.listOfTasks addObject:t3];
+        
+       [p1.listOfTasks enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+         [obj addObserver:p1
+                forKeyPath:@"done"options:NSKeyValueObservingOptionNew context:nil];
+           
+          
+       }];
+        
+        t3.done = YES;
+        t2.done = NO;
+        t1.done = YES;
+        t3.done = NO;
+        
     }
     return 0;
 }
