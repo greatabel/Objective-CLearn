@@ -62,7 +62,10 @@ int main(int argc, const char * argv[]) {
         NSString *mystring2 = [myInstance valueForKey:@"integerProperty"];
         NSLog(@"%@",mystring2);
         
-        NSLog(@"observer-------->");
+        
+        
+        
+        NSLog(@"observer----------------------------------->");
         Project *p1 = [[Project alloc]init];
         p1.listOfTasks = [[NSMutableArray alloc]init];
         p1.name = @"great abel";
