@@ -44,6 +44,48 @@
     NSLog(@"NSMutableString 2:%@",alpha);
     
         NSLog(@"\n\n\n test in someMethod:NSNumber");
+    NSNumber *num1 = @1;
+    NSNumber *num2 = @2.22;
+    
+    NSNumber *num3 = [NSNumber numberWithInteger:3];
+    NSNumber *num4 = [NSNumber numberWithFloat:4.444];
+    
+    float result = [num1 floatValue]+[num2 floatValue];
+    NSLog(@"result=%.3f",result);
+    
+    NSNumberFormatter *formatter = [[NSNumberFormatter alloc]init];
+    formatter.numberStyle = NSNumberFormatterCurrencyStyle;
+    NSLog(@"Formatted num2= %@", [formatter stringFromNumber:num2]);
+    
+    //convert string to number
+    NSNumberFormatter *formatter1 = [[NSNumberFormatter alloc] init];
+    [formatter1 setLocale:[NSLocale localeWithLocaleIdentifier:@"en_US_POSIX"]];
+    //http://stackoverflow.com/questions/22413605/nsnumberformatter-numberfromstring-decimal-number
+    formatter1.numberStyle = NSNumberFormatterSpellOutStyle;
+    NSNumber *num5 = [formatter1 numberFromString:@"one point five six"];
+    
+    NSString *numStr = [NSString stringWithFormat:@"%@",num5];
+    NSLog(@"%@",numStr);
+
+    //---NSArray
+    NSArray *numbers = @[@-1,@-20,@30,@410,@5222];
+    NSArray *letter =@[@"Abel",@"Great",@"test"];
+    NSNumber *mynum = [numbers objectAtIndex:1];
+    NSNumber *lastNum = [numbers lastObject];
+    
+    NSUInteger index = [numbers indexOfObject:mynum];
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 }
 @end
