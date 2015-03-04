@@ -21,10 +21,12 @@
     [self generateReport];
     NSLog(@"%@",string);
     NSLog(@"haha date is :%@",date);
+    log = @" test log";
+    counter++;
 }
 
 -(void)generateAnotherReport{
-    NSLog(@"#Another report!");
+    NSLog(@"#Another report ,counter:%d, log:%@",counter,log);
 }
 
 @end

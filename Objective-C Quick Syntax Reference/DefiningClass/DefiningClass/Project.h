@@ -22,6 +22,13 @@
 @end
 
 @interface Project ()
+{
+    
+    int counter;
+    NSString *log;
+}
+
+@property(strong) NSArray *listOfTasks;
 
 -(void)generateAnotherReport;
 

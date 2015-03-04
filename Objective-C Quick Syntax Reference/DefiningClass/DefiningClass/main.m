@@ -31,6 +31,7 @@ int main(int argc, const char * argv[]) {
         [ps generateReportAndAddThisString:@"本地测试" andThenAddThisDate:localDate];
         
         [ps generateAnotherReport];
+        
     }
     return 0;
 }
