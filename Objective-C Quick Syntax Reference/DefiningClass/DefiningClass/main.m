@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "Project.h"
+
+#import "SpecialProject.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -31,6 +34,19 @@ int main(int argc, const char * argv[]) {
         [ps generateReportAndAddThisString:@"本地测试" andThenAddThisDate:localDate];
         
         [ps generateAnotherReport];
+        
+        [Project printTimeStamp];
+        
+        SpecialProject *sp = [[SpecialProject alloc]init];
+
+        
+        [sp generateSpecialReport];
+        [sp generateReport];
+        NSString *templog = sp->log3;
+        NSLog(@"temp###=%@",templog);
+        
+        Project *p = [[Project alloc]initWithName:@"ThisNewCategory"];
+        NSLog(@"p.name = %@",p.name);
         
     }
     return 0;

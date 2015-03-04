@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B58C31F31AA6AFC000167330 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B58C31F21AA6AFC000167330 /* main.m */; };
 		B58C31FB1AA6AFE200167330 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = B58C31FA1AA6AFE200167330 /* Project.m */; };
+		B58C32041AA6DEF500167330 /* SpecialProject.m in Sources */ = {isa = PBXBuildFile; fileRef = B58C32031AA6DEF500167330 /* SpecialProject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		B58C31F21AA6AFC000167330 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B58C31F91AA6AFE200167330 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
 		B58C31FA1AA6AFE200167330 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		B58C32021AA6DEF500167330 /* SpecialProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialProject.h; sourceTree = "<group>"; };
+		B58C32031AA6DEF500167330 /* SpecialProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialProject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				B58C31F21AA6AFC000167330 /* main.m */,
 				B58C31F91AA6AFE200167330 /* Project.h */,
 				B58C31FA1AA6AFE200167330 /* Project.m */,
+				B58C32021AA6DEF500167330 /* SpecialProject.h */,
+				B58C32031AA6DEF500167330 /* SpecialProject.m */,
 			);
 			path = DefiningClass;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58C32041AA6DEF500167330 /* SpecialProject.m in Sources */,
 				B58C31F31AA6AFC000167330 /* main.m in Sources */,
 				B58C31FB1AA6AFE200167330 /* Project.m in Sources */,
 			);

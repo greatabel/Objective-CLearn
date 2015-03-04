@@ -12,7 +12,7 @@
 
 
 -(void)generateReport{
-    
+    log3 = @"in genereateReport";
     NSLog(@"This is a report");
 }
 
@@ -29,6 +29,32 @@
     NSLog(@"#Another report ,counter:%d, log:%@",counter,log);
 }
 
++(void)printTimeStamp{
+    NSLog(@"ClassMethod Demo Timestamp: %@",[NSDate date]);
+}
+
 @end
+
+
+// category implementation
+@implementation Project (ProjectExtension)
+
+-(id)initWithName:(NSString *)aName{
+    
+    self = [super init];
+    if(self){
+       
+        NSString *errorString = @"#initWithName test.";
+        NSString *all = [aName stringByAppendingString:errorString];
+        self.name = all ;
+    }
+    return self;
+}
+
+@end
+
+
+
+
 
 

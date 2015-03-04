@@ -8,7 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Project : NSObject
+@interface Project : NSObject{
+
+    @private NSString *log1;
+    @protected NSString *log2;
+    @public NSString *log3;
+}
 
 @property(strong) NSString *name;
 
@@ -18,8 +23,13 @@
 
 -(void)generateReportAndAddThisString:(NSString *)string andThenAddThisDate:(NSDate *)date ;
 
+//class name
++(void)printTimeStamp;
 
 @end
+
+
+
 
 @interface Project ()
 {
@@ -31,5 +41,13 @@
 @property(strong) NSArray *listOfTasks;
 
 -(void)generateAnotherReport;
+
+@end
+
+
+// category
+@interface Project (ProjectExtension)
+
+-(id)initWithName:(NSString *)aName;
 
 @end
