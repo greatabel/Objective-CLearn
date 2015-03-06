@@ -18,7 +18,7 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        //argv[1]="1 + 2";
+        argv[1]="1 + 2";
         double result=0;
         char operator='\0';
         NSString *equation = [NSString stringWithUTF8String:argv[1]];
