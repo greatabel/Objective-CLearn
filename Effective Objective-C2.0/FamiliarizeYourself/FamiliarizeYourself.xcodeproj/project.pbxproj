@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B58535621AB0636800478A36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B58535611AB0636800478A36 /* main.m */; };
+		B585356A1AB0AFCB00478A36 /* EOCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = B58535691AB0AFCB00478A36 /* EOCPerson.m */; };
+		B585356D1AB0B0F900478A36 /* EOCEmployer.m in Sources */ = {isa = PBXBuildFile; fileRef = B585356C1AB0B0F900478A36 /* EOCEmployer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		B585355E1AB0636800478A36 /* FamiliarizeYourself */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FamiliarizeYourself; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58535611AB0636800478A36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B58535681AB0AFCB00478A36 /* EOCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCPerson.h; sourceTree = "<group>"; };
+		B58535691AB0AFCB00478A36 /* EOCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCPerson.m; sourceTree = "<group>"; };
+		B585356B1AB0B0F900478A36 /* EOCEmployer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCEmployer.h; sourceTree = "<group>"; };
+		B585356C1AB0B0F900478A36 /* EOCEmployer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCEmployer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				B58535611AB0636800478A36 /* main.m */,
+				B58535681AB0AFCB00478A36 /* EOCPerson.h */,
+				B58535691AB0AFCB00478A36 /* EOCPerson.m */,
+				B585356B1AB0B0F900478A36 /* EOCEmployer.h */,
+				B585356C1AB0B0F900478A36 /* EOCEmployer.m */,
 			);
 			path = FamiliarizeYourself;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B585356D1AB0B0F900478A36 /* EOCEmployer.m in Sources */,
+				B585356A1AB0AFCB00478A36 /* EOCPerson.m in Sources */,
 				B58535621AB0636800478A36 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

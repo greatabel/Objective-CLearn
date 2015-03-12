@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+#import "EOCPerson.h"
+
+#import "EOCEmployer.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
        
@@ -31,6 +35,27 @@ int main(int argc, const char * argv[]) {
         int i = 100;
         printf("printf %d\n",i);
         NSLog(@"NSLog %d\n",i);
+        
+        //http://danie.lt/how-objective-c-messaging-works/ 解释objective-c 的c之外的部分是怎么通过c和汇编实现的
+        
+        //调用
+        EOCPerson *personA = [[EOCPerson alloc] init];
+        personA.fristName = @"great";
+        personA.lastName = @"abel";
+
+        
+        EOCEmployer *employee = [[EOCEmployer alloc] init];
+        employee.testname = @"#abel Toyota Camry#";
+        [employee drive];
+        
+        NSLog(@"test Employee=%@",employee);
+        
+        
+        personA.employer = employee;
+        [personA EOCPersonMethod];
+        NSLog(@"personA= %@",personA);
+        
+//        [ps someMethod];
     }
     return 0;
 }
