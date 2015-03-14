@@ -31,8 +31,17 @@
 
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [[self.usernameTextField.rac_textSignal filter:^BOOL(id value){
+        NSString *text = value;
+        return text.length > 3;
+    }] subscribeNext:^(id x){
+        NSLog(@"%@ in ReactiveCocoa", x);
+    }];
+    
+    
     [self updateUIState];
     
     self.signInService = [DummySignInService new];
