@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B564350C1AB431B900B709BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B564350B1AB431B900B709BC /* main.m */; };
+		B564350F1AB431B900B709BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B564350E1AB431B900B709BC /* AppDelegate.m */; };
+		B56435121AB431B900B709BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56435111AB431B900B709BC /* ViewController.m */; };
+		B56435151AB431B900B709BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56435131AB431B900B709BC /* Main.storyboard */; };
+		B56435171AB431B900B709BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56435161AB431B900B709BC /* Images.xcassets */; };
+		B564351A1AB431B900B709BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56435181AB431B900B709BC /* LaunchScreen.xib */; };
+		B56435261AB431B900B709BC /* AbelReactivePlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56435251AB431B900B709BC /* AbelReactivePlaygroundTests.m */; };
+		B5B9F4071AB4395100EAD2DF /* DummySignInService.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B9F4061AB4395100EAD2DF /* DummySignInService.m */; };
+		B5B9F4091AB43BEC00EAD2DF /* beatiful.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5B9F4081AB43BEC00EAD2DF /* beatiful.jpg */; };
+		D069878F033B7A3757B900F6 /* libPods-AbelReactivePlayground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F703BD94E1BA126DCDDFA9F /* libPods-AbelReactivePlayground.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B56435201AB431B900B709BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B56434FE1AB431B900B709BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B56435051AB431B900B709BC;
+			remoteInfo = AbelReactivePlayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3734AF22062222184EFAA922 /* Pods-AbelReactivePlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbelReactivePlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-AbelReactivePlayground/Pods-AbelReactivePlayground.release.xcconfig"; sourceTree = "<group>"; };
+		8F703BD94E1BA126DCDDFA9F /* libPods-AbelReactivePlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AbelReactivePlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56435061AB431B900B709BC /* AbelReactivePlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbelReactivePlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B564350A1AB431B900B709BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B564350B1AB431B900B709BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B564350D1AB431B900B709BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B564350E1AB431B900B709BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B56435101AB431B900B709BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B56435111AB431B900B709BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B56435141AB431B900B709BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B56435161AB431B900B709BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B56435191AB431B900B709BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B564351F1AB431B900B709BC /* AbelReactivePlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbelReactivePlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56435241AB431B900B709BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56435251AB431B900B709BC /* AbelReactivePlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbelReactivePlaygroundTests.m; sourceTree = "<group>"; };
+		B5B9F4051AB4395100EAD2DF /* DummySignInService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DummySignInService.h; sourceTree = "<group>"; };
+		B5B9F4061AB4395100EAD2DF /* DummySignInService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DummySignInService.m; sourceTree = "<group>"; };
+		B5B9F4081AB43BEC00EAD2DF /* beatiful.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beatiful.jpg; sourceTree = "<group>"; };
+		EE321BAF59C843F594F01865 /* Pods-AbelReactivePlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbelReactivePlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AbelReactivePlayground/Pods-AbelReactivePlayground.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B56435031AB431B900B709BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D069878F033B7A3757B900F6 /* libPods-AbelReactivePlayground.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B564351C1AB431B900B709BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B36B66767A43FB087DD18E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F703BD94E1BA126DCDDFA9F /* libPods-AbelReactivePlayground.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B56434FD1AB431B900B709BC = {
+			isa = PBXGroup;
+			children = (
+				B56435081AB431B900B709BC /* AbelReactivePlayground */,
+				B56435221AB431B900B709BC /* AbelReactivePlaygroundTests */,
+				B56435071AB431B900B709BC /* Products */,
+				F52CB4A5D3C9AE84CD31105E /* Pods */,
+				6B36B66767A43FB087DD18E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B56435071AB431B900B709BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B56435061AB431B900B709BC /* AbelReactivePlayground.app */,
+				B564351F1AB431B900B709BC /* AbelReactivePlaygroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B56435081AB431B900B709BC /* AbelReactivePlayground */ = {
+			isa = PBXGroup;
+			children = (
+				B5B9F4081AB43BEC00EAD2DF /* beatiful.jpg */,
+				B564350D1AB431B900B709BC /* AppDelegate.h */,
+				B564350E1AB431B900B709BC /* AppDelegate.m */,
+				B56435101AB431B900B709BC /* ViewController.h */,
+				B56435111AB431B900B709BC /* ViewController.m */,
+				B56435131AB431B900B709BC /* Main.storyboard */,
+				B56435161AB431B900B709BC /* Images.xcassets */,
+				B56435181AB431B900B709BC /* LaunchScreen.xib */,
+				B56435091AB431B900B709BC /* Supporting Files */,
+				B5B9F4051AB4395100EAD2DF /* DummySignInService.h */,
+				B5B9F4061AB4395100EAD2DF /* DummySignInService.m */,
+			);
+			path = AbelReactivePlayground;
+			sourceTree = "<group>";
+		};
+		B56435091AB431B900B709BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B564350A1AB431B900B709BC /* Info.plist */,
+				B564350B1AB431B900B709BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B56435221AB431B900B709BC /* AbelReactivePlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				B56435251AB431B900B709BC /* AbelReactivePlaygroundTests.m */,
+				B56435231AB431B900B709BC /* Supporting Files */,
+			);
+			path = AbelReactivePlaygroundTests;
+			sourceTree = "<group>";
+		};
+		B56435231AB431B900B709BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B56435241AB431B900B709BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F52CB4A5D3C9AE84CD31105E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE321BAF59C843F594F01865 /* Pods-AbelReactivePlayground.debug.xcconfig */,
+				3734AF22062222184EFAA922 /* Pods-AbelReactivePlayground.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B56435051AB431B900B709BC /* AbelReactivePlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56435291AB431B900B709BC /* Build configuration list for PBXNativeTarget "AbelReactivePlayground" */;
+			buildPhases = (
+				739E0D1C8FAEB6CD126C7A01 /* Check Pods Manifest.lock */,
+				B56435021AB431B900B709BC /* Sources */,
+				B56435031AB431B900B709BC /* Frameworks */,
+				B56435041AB431B900B709BC /* Resources */,
+				B08D7251691ED5BDD490E61F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbelReactivePlayground;
+			productName = AbelReactivePlayground;
+			productReference = B56435061AB431B900B709BC /* AbelReactivePlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B564351E1AB431B900B709BC /* AbelReactivePlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B564352C1AB431B900B709BC /* Build configuration list for PBXNativeTarget "AbelReactivePlaygroundTests" */;
+			buildPhases = (
+				B564351B1AB431B900B709BC /* Sources */,
+				B564351C1AB431B900B709BC /* Frameworks */,
+				B564351D1AB431B900B709BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B56435211AB431B900B709BC /* PBXTargetDependency */,
+			);
+			name = AbelReactivePlaygroundTests;
+			productName = AbelReactivePlaygroundTests;
+			productReference = B564351F1AB431B900B709BC /* AbelReactivePlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B56434FE1AB431B900B709BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = abel;
+				TargetAttributes = {
+					B56435051AB431B900B709BC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B564351E1AB431B900B709BC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B56435051AB431B900B709BC;
+					};
+				};
+			};
+			buildConfigurationList = B56435011AB431B900B709BC /* Build configuration list for PBXProject "AbelReactivePlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B56434FD1AB431B900B709BC;
+			productRefGroup = B56435071AB431B900B709BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B56435051AB431B900B709BC /* AbelReactivePlayground */,
+				B564351E1AB431B900B709BC /* AbelReactivePlaygroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B56435041AB431B900B709BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56435151AB431B900B709BC /* Main.storyboard in Resources */,
+				B564351A1AB431B900B709BC /* LaunchScreen.xib in Resources */,
+				B56435171AB431B900B709BC /* Images.xcassets in Resources */,
+				B5B9F4091AB43BEC00EAD2DF /* beatiful.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B564351D1AB431B900B709BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		739E0D1C8FAEB6CD126C7A01 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B08D7251691ED5BDD490E61F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AbelReactivePlayground/Pods-AbelReactivePlayground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B56435021AB431B900B709BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B9F4071AB4395100EAD2DF /* DummySignInService.m in Sources */,
+				B56435121AB431B900B709BC /* ViewController.m in Sources */,
+				B564350F1AB431B900B709BC /* AppDelegate.m in Sources */,
+				B564350C1AB431B900B709BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B564351B1AB431B900B709BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56435261AB431B900B709BC /* AbelReactivePlaygroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B56435211AB431B900B709BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B56435051AB431B900B709BC /* AbelReactivePlayground */;
+			targetProxy = B56435201AB431B900B709BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B56435131AB431B900B709BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56435141AB431B900B709BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B56435181AB431B900B709BC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56435191AB431B900B709BC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B56435271AB431B900B709BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B56435281AB431B900B709BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B564352A1AB431B900B709BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE321BAF59C843F594F01865 /* Pods-AbelReactivePlayground.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbelReactivePlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B564352B1AB431B900B709BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3734AF22062222184EFAA922 /* Pods-AbelReactivePlayground.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbelReactivePlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B564352D1AB431B900B709BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AbelReactivePlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbelReactivePlayground.app/AbelReactivePlayground";
+			};
+			name = Debug;
+		};
+		B564352E1AB431B900B709BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AbelReactivePlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbelReactivePlayground.app/AbelReactivePlayground";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B56435011AB431B900B709BC /* Build configuration list for PBXProject "AbelReactivePlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56435271AB431B900B709BC /* Debug */,
+				B56435281AB431B900B709BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B56435291AB431B900B709BC /* Build configuration list for PBXNativeTarget "AbelReactivePlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B564352A1AB431B900B709BC /* Debug */,
+				B564352B1AB431B900B709BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B564352C1AB431B900B709BC /* Build configuration list for PBXNativeTarget "AbelReactivePlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B564352D1AB431B900B709BC /* Debug */,
+				B564352E1AB431B900B709BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B56434FE1AB431B900B709BC /* Project object */;
+}

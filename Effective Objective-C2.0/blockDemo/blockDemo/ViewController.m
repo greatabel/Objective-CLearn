@@ -9,13 +9,81 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *alertResponseLabel;
+@property (weak, nonatomic) IBOutlet UIButton *actionResponseLabel;
 
 @end
-
+//http://stackoverflow.com/questions/1033763/is-it-possible-to-update-uibutton-title-text-programmatically
+//http://possiblemobile.com/2014/08/uialertcontroller-ios-8/
 @implementation ViewController
 
+- (IBAction)alertButtonTouched:(id)sender {
+    // Alert style
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"ALERT!" message:@"What will you do?" preferredStyle:UIAlertControllerStyleAlert];
+    
+    __weak ViewController *wself = self;
+    
+    // Make choices for the user using alert actions.
+    UIAlertAction *doSomethingAction = [UIAlertAction actionWithTitle:@"I'm doing something" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+        __strong ViewController *sself = wself;
+        //self.alertResponseLabel.text = @"You did something!";
+        [sself.alertResponseLabel setTitle: @"You did something!" forState: UIControlStateNormal];
+       
+    }];
+    
+    
+    UIAlertAction *doNothingAction = [UIAlertAction actionWithTitle:@"I'm totally ignoring this" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        __strong ViewController *sself = wself;
+//        self.alertResponseLabel.text = @"OK, just ignore me...";
+        [sself.alertResponseLabel setTitle: @"OK, just ignore me" forState: UIControlStateNormal];
+    }];
+    
+    // Add actions to the controller so they will appear
+    [alert addAction:doSomethingAction];
+    [alert addAction:doNothingAction];
+    
+    // Finally present the action
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
+- (IBAction)actionButtonTouched:(id)sender {
+    // Action sheet style.
+    UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:@"Evacuate Building!" message:@"" preferredStyle:UIAlertControllerStyleActionSheet];
+    
+    __weak ViewController *wself = self;
+    
+    UIAlertAction *destructiveAction = [UIAlertAction actionWithTitle:@"Kick through door" style:UIAlertActionStyleDestructive handler:^(UIAlertAction *action) {
+        __strong ViewController *sself = wself;
+//        sself.actionResponseLabel.text = @"Careful!";
+        [sself.actionResponseLabel setTitle: @"Careful" forState: UIControlStateNormal];
+    }];
+    
+    UIAlertAction *defaultAction = [UIAlertAction actionWithTitle:@"Walk calmly" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+        __strong ViewController *sself = wself;
+//        sself.actionResponseLabel.text = @"Find nearest exit.";
+        [sself.actionResponseLabel setTitle: @"Find nearest exit." forState: UIControlStateNormal];
+
+    }];
+    
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Do nothing" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        __strong ViewController *sself = wself;
+//        sself.actionResponseLabel.text = @"Just relax";
+            [self.actionResponseLabel setTitle: @"Just relax" forState: UIControlStateNormal];
+    }];
+    
+    [actionSheet addAction:destructiveAction];
+    [actionSheet addAction:defaultAction];
+    [actionSheet addAction:cancelAction];
+    
+    [self presentViewController:actionSheet animated:YES completion:nil];
+}
+
 - (void)viewDidLoad {
-    [super viewDidLoad];
+ 
+        
+
+        
+//    [super viewDidLoad];
     
     //http://www.appcoda.com/objective-c-blocks-tutorial/
     // Do any additional setup after loading the view, typically from a nib.
@@ -77,6 +145,9 @@
         // We just log the result, no need to do anything else.
         NSLog(@"The result is %d", result);
     }];
+    
+    
+    
 }
 
 -(void)addNumber:(int)number1 withNumber:(int)number2 andCompletionHandler:(void (^)(int result))completionHandler{
