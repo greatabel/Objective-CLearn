@@ -8,7 +8,11 @@
 
 #import "ViewController.h"
 
+#import <QuartzCore/QuartzCore.h>
+
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *sendBtn;
+
 
 @end
 
@@ -30,6 +34,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    //设置边框http://stackoverflow.com/questions/8162411/how-to-create-border-in-uibutton
+    [[self.sendBtn layer] setBorderWidth:2.0f];
+    [[self.sendBtn layer] setBorderColor:[UIColor greenColor].CGColor];
 }
 
 - (void)didReceiveMemoryWarning {
