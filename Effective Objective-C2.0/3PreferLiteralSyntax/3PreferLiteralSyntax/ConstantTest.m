@@ -29,6 +29,20 @@ enum ENUMTest{
     test5 = 1<<5
 };
 
+
+enum EOCConnectionStateA : NSUInteger {
+    EOCConnectionStateDisconnected,
+    EOCConnectionStateConnecting,
+    EOCConnectionStateConnected,
+};
+
+typedef NS_ENUM(NSUInteger, EOCConnectionStateB) {
+    EOCConnectionStateBDisconnected,
+    EOCConnectionStateBConnecting,
+    EOCConnectionStateBConnected,
+};
+
+
 -(void)login{
     enum EOCConnectionState state = Disconnected;
     NSLog(@"state->%d",state);
@@ -38,6 +52,21 @@ enum ENUMTest{
         NSLog(@"test->%d",test);
     if(test & 4){
         NSLog(@"test");
+    }
+    
+    enum EOCConnectionStateB currentState = EOCConnectionStateBConnecting;
+    switch (currentState) {
+        case EOCConnectionStateBConnected:
+            NSLog(@"connected!");
+            break;
+        case EOCConnectionStateBConnecting:
+            NSLog(@"connecting!");
+            break;
+        case EOCConnectionStateBDisconnected:
+            NSLog(@"Disnected");
+            
+        default:
+            break;
     }
     
 }
