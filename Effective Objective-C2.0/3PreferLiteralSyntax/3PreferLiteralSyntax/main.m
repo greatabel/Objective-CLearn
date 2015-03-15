@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+#import "ConstantTest.h"
+
+#define ANIMATION_DURATION 0.3
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
        NSString *someString = @"Effective Objective-C 2.0";
@@ -72,9 +76,32 @@ int main(int argc, const char * argv[]) {
         [mutable insertObject:@"搅局的" atIndex:2];
         [mutable addObject:@"test2"];
         NSLog(@"test1:%@",mutable);
+        //打印出来的是汉字
         NSLog(@"汉字%@",[mutable objectAtIndex:6]);
         
+        sayHello();
+        
+        ConstantTest *loginTest = [[ConstantTest alloc]init];
+        
+        [loginTest login];
         
     }
     return 0;
 }
+
+int sayHello() {
+    
+    NSLog(@"ANIMATION_DURATION = %f",ANIMATION_DURATION);
+    //better be
+    static const NSTimeInterval kAnimationDuration = 0.3;
+    NSLog(@"kAnimationDuration = %f",kAnimationDuration);
+    NSLog(@"random=%d",getRandomInteger(10, 100));
+    return 0;
+    
+}
+
+int getRandomInteger(int minimum, int maximum) {
+    return arc4random_uniform((maximum - minimum) + 1) + minimum;
+}
+
+

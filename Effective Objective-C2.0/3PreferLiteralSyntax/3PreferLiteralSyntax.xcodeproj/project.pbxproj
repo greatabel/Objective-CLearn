@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B5B673541AB55CF700172FDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B673531AB55CF700172FDB /* main.m */; };
+		B5B6735C1AB5690700172FDB /* ConstantTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B6735B1AB5690700172FDB /* ConstantTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		B5B673501AB55CF700172FDB /* 3PreferLiteralSyntax */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 3PreferLiteralSyntax; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B673531AB55CF700172FDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5B6735A1AB5690700172FDB /* ConstantTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantTest.h; sourceTree = "<group>"; };
+		B5B6735B1AB5690700172FDB /* ConstantTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstantTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				B5B673531AB55CF700172FDB /* main.m */,
+				B5B6735A1AB5690700172FDB /* ConstantTest.h */,
+				B5B6735B1AB5690700172FDB /* ConstantTest.m */,
 			);
 			path = 3PreferLiteralSyntax;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5B673541AB55CF700172FDB /* main.m in Sources */,
+				B5B6735C1AB5690700172FDB /* ConstantTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +238,7 @@
 				B5B673591AB55CF700172FDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
