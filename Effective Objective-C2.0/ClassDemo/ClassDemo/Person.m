@@ -50,4 +50,9 @@
     NSLog(@"in vote");
 }
 
+- (void)testRetainSet:(NSString *)inputName {
+    NSLog(@"here:%@",inputName);
+    
+}
+
 @end

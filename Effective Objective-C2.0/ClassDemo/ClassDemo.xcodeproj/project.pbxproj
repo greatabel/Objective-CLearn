@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B5B3F3201AB80F470030E665 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B3F31F1AB80F470030E665 /* main.m */; };
 		B5B3F3281AB80F790030E665 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B3F3271AB80F790030E665 /* Person.m */; };
+		B5B3F32B1AB81B1F0030E665 /* Goods.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B3F32A1AB81B1F0030E665 /* Goods.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		B5B3F31F1AB80F470030E665 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5B3F3261AB80F790030E665 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		B5B3F3271AB80F790030E665 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B5B3F3291AB81B1F0030E665 /* Goods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
+		B5B3F32A1AB81B1F0030E665 /* Goods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goods.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				B5B3F31F1AB80F470030E665 /* main.m */,
 				B5B3F3261AB80F790030E665 /* Person.h */,
 				B5B3F3271AB80F790030E665 /* Person.m */,
+				B5B3F3291AB81B1F0030E665 /* Goods.h */,
+				B5B3F32A1AB81B1F0030E665 /* Goods.m */,
 			);
 			path = ClassDemo;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B3F32B1AB81B1F0030E665 /* Goods.m in Sources */,
 				B5B3F3281AB80F790030E665 /* Person.m in Sources */,
 				B5B3F3201AB80F470030E665 /* main.m in Sources */,
 			);
@@ -208,6 +214,7 @@
 		B5B3F3241AB80F470030E665 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -215,6 +222,7 @@
 		B5B3F3251AB80F470030E665 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -238,6 +246,7 @@
 				B5B3F3251AB80F470030E665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

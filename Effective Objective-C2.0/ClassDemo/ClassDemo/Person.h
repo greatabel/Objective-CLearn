@@ -27,7 +27,7 @@
 @property (nonatomic,retain)NSString *name;
 
 //方法声明 类方法在定义的时候前面用“+”号标识
-+(Person *)personClassMethod;
+//+(Person *)personClassMethod;
 
 +(void)testClassMethod;
 //实例方法前面则用“-”号标识
@@ -38,5 +38,6 @@
 
 - (void)vote;
 
+- (void)testRetainSet:(NSString *)inputName ;
 
 @end
