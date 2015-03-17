@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSString *urlString =@"http://www.sourcefreeze.com";
+    NSString *urlString =@"http://www.douban.com/people/greatabel/";
     NSURL *url = [NSURL URLWithString:urlString];
     
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
