@@ -7,7 +7,8 @@
 //
 
 #import "interfaceMyClass.h"
-
+//oc extentison
+//http://stackoverflow.com/questions/7136124/class-extension-vs-class-category
 @interface interfaceMyClass ()
 //在m文件中加上一个oc extension，在里面声明需要的私有
 -(void)privateMethod2;
