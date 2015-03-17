@@ -21,7 +21,7 @@ int main(int argc, const char * argv[]) {
         
         //------http://blog.csdn.net/oktears/article/details/41042327
         //当调用alloc或者new创建一个OC对象时，引用计数+1
-        Goods* pGoods = [[Goods alloc] init];
+        Goods *pGoods = [[Goods alloc] init];
         //输出: 1
         NSLog(@"retainCount=%lu", (unsigned long)[pGoods retainCount]);
         
