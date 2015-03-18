@@ -12,12 +12,19 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Person  *p = [[Person alloc]init];
+        EOCPerson  *p = [[EOCPerson alloc]init];
         p.firstName = @"test";
+        NSLog(@"%@",p.firstName);
         
-//        NSLog(@"test %@",aPerson);
+        EOCPerson *aPerson = [EOCPerson new];
         
-//        [p login];
+        aPerson.firstName = @"Bob";
+        NSLog(@"%@",aPerson.firstName);
+        //same as
+        [aPerson setFirstName:@"Bob1"];
+        NSLog(@"%@",aPerson.firstName);
+        
+        [aPerson testMethod];
         
     }
     return 0;

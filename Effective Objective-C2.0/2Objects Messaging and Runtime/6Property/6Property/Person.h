@@ -9,9 +9,10 @@
 #import <Foundation/Foundation.h>
 
 
-@interface Person : NSObject
+@interface EOCPerson : NSObject
 
 @property(strong) NSString *firstName;
 @property(strong) NSString *lastName;
 
+- (void) testMethod;
 @end

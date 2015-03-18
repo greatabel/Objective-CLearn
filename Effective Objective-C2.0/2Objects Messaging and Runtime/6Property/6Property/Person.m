@@ -8,6 +8,14 @@
 
 #import "Person.h"
 
-@implementation Person
+@implementation EOCPerson
+
+//演示默认生成的 _firstName _lastName 被替换成_myFristName _myLastName
+@synthesize firstName = _myFirstName;
+@synthesize lastName = _myLastName;
+
+-(void) testMethod{
+    NSLog(@"in testMethod _myFirstName demo =%@",_myFirstName);
+}
 
 @end
