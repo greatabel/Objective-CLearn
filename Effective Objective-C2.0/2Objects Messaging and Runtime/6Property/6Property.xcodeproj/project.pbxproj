@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B58355ED1ABC30C7004E8284 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B58355EC1ABC30C7004E8284 /* User.m */; };
 		B5B6736A1AB58ADE00172FDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B673691AB58ADE00172FDB /* main.m */; };
 		B5B673721AB58B2A00172FDB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B673711AB58B2A00172FDB /* Person.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B58355EB1ABC30C7004E8284 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		B58355EC1ABC30C7004E8284 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		B5B673661AB58ADE00172FDB /* 6Property */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 6Property; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B673691AB58ADE00172FDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5B673701AB58B2A00172FDB /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				B5B673691AB58ADE00172FDB /* main.m */,
 				B5B673701AB58B2A00172FDB /* Person.h */,
 				B5B673711AB58B2A00172FDB /* Person.m */,
+				B58355EB1ABC30C7004E8284 /* User.h */,
+				B58355EC1ABC30C7004E8284 /* User.m */,
 			);
 			path = 6Property;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			files = (
 				B5B673721AB58B2A00172FDB /* Person.m in Sources */,
 				B5B6736A1AB58ADE00172FDB /* main.m in Sources */,
+				B58355ED1ABC30C7004E8284 /* User.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +214,7 @@
 		B5B6736E1AB58ADE00172FDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -215,6 +222,7 @@
 		B5B6736F1AB58ADE00172FDB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -238,6 +246,7 @@
 				B5B6736F1AB58ADE00172FDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

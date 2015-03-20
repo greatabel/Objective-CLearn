@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 #import "Person.h"
+#import "User.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -25,6 +26,11 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@",aPerson.firstName);
         
         [aPerson testMethod];
+        
+        User *myuser =[[User alloc]init];
+        [myuser dynamicSetName:@"test123"];
+        NSLog(@"%@",myuser.name);
+        
         
     }
     return 0;
