@@ -1,0 +1,19 @@
+PODS:
+  - EaseMobSDK (2.1.6)
+
+DEPENDENCIES:
+  - EaseMobSDK (from `https://github.com/easemob/sdk-ios-cocoapods.git`)
+
+EXTERNAL SOURCES:
+  EaseMobSDK:
+    :git: https://github.com/easemob/sdk-ios-cocoapods.git
+
+CHECKOUT OPTIONS:
+  EaseMobSDK:
+    :commit: c0bd1991db32fcf34f6364ff7ad57cb0ef57c94b
+    :git: https://github.com/easemob/sdk-ios-cocoapods.git
+
+SPEC CHECKSUMS:
+  EaseMobSDK: 0c82af1019b19940cc25fa9d4e52b89e737e8205
+
+COCOAPODS: 0.37.1
