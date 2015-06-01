@@ -1,34 +1,69 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="iGA-pM-7Tj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="iGA-pM-7Tj">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--资讯-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="nwC-Qj-3MQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ugc-Yv-DGj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mp7-l8-j9f">
+                                <rect key="frame" x="0.0" y="-6" width="600" height="154"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Os-OP-2IB">
+                                        <rect key="frame" x="145" y="16" width="45" height="30"/>
+                                        <state key="normal" title="招融宝">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVm-xK-aeU">
+                                        <rect key="frame" x="280" y="16" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="k1C-rM-fA7"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="searchicon">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="VVm-xK-aeU" firstAttribute="leading" secondItem="0Os-OP-2IB" secondAttribute="trailing" constant="90" id="NgH-Lm-EQD"/>
+                                    <constraint firstItem="0Os-OP-2IB" firstAttribute="leading" secondItem="mp7-l8-j9f" secondAttribute="leading" constant="145" id="XYt-Ud-9cQ"/>
+                                    <constraint firstItem="0Os-OP-2IB" firstAttribute="top" secondItem="mp7-l8-j9f" secondAttribute="top" constant="16" id="Y4f-hA-qkq"/>
+                                    <constraint firstItem="0Os-OP-2IB" firstAttribute="top" secondItem="VVm-xK-aeU" secondAttribute="top" id="pw1-8z-DpE"/>
+                                </constraints>
+                            </view>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IVL-8z-rCb">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="85" width="320" height="534"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="IVL-8z-rCb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4wS-LM-Eg6"/>
-                            <constraint firstAttribute="trailing" secondItem="IVL-8z-rCb" secondAttribute="trailing" id="Arm-i7-utG"/>
-                            <constraint firstAttribute="bottom" secondItem="IVL-8z-rCb" secondAttribute="bottom" id="oS8-tS-G5j"/>
-                            <constraint firstItem="IVL-8z-rCb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zUf-Ie-Ac5"/>
+                            <constraint firstItem="mp7-l8-j9f" firstAttribute="leading" secondItem="IVL-8z-rCb" secondAttribute="leading" id="28n-3D-KwS"/>
+                            <constraint firstItem="mp7-l8-j9f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CZE-dt-tRn"/>
+                            <constraint firstAttribute="trailing" secondItem="mp7-l8-j9f" secondAttribute="trailing" constant="-280" id="hcY-hG-Vup"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="IVL-8z-rCb" secondAttribute="bottom" constant="-51" id="nWC-XW-yDe"/>
+                            <constraint firstItem="mp7-l8-j9f" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-6" id="pc6-fT-WW3"/>
+                            <constraint firstAttribute="trailing" secondItem="IVL-8z-rCb" secondAttribute="trailing" id="sMR-ZG-I5Z"/>
+                            <constraint firstItem="Ugc-Yv-DGj" firstAttribute="top" secondItem="mp7-l8-j9f" secondAttribute="bottom" constant="371" id="vAa-Y6-7qb"/>
+                            <constraint firstItem="IVL-8z-rCb" firstAttribute="top" secondItem="nwC-Qj-3MQ" secondAttribute="bottom" constant="65" id="wac-1K-aVr"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="资讯" image="information" id="jQe-qX-ffo"/>
                     <navigationItem key="navigationItem" id="WRs-KW-lpI"/>
                     <connections>
                         <outlet property="webview" destination="IVL-8z-rCb" id="w4h-TF-pYv"/>
@@ -36,26 +71,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1975" y="284"/>
+            <point key="canvasLocation" x="672" y="268"/>
         </scene>
         <!--Item-->
-        <scene sceneID="1Du-1T-AO3">
+        <scene sceneID="uBe-Ce-jVr">
             <objects>
-                <viewController id="jJM-Z7-lDl" sceneMemberID="viewController">
+                <viewController id="2uy-HS-N5J" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="oZu-1r-nVY"/>
-                        <viewControllerLayoutGuide type="bottom" id="zNq-KM-Qpy"/>
+                        <viewControllerLayoutGuide type="top" id="GJw-8p-TtO"/>
+                        <viewControllerLayoutGuide type="bottom" id="pmX-ZV-7DZ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="X53-eJ-eLX">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="gGc-8m-Jpl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="4dU-gh-gKp"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="my" id="Oel-qr-ApN"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Rla-5q-b21" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OYB-2m-g1H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="614" y="1049"/>
+            <point key="canvasLocation" x="234.66666666666666" y="1035.6533333333334"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="rbz-P2-tWk">
@@ -68,35 +103,23 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="gBb-ZJ-I3i" kind="relationship" relationship="viewControllers" id="OSn-RB-rP5"/>
-                        <segue destination="jJM-Z7-lDl" kind="relationship" relationship="viewControllers" id="rSZ-xl-eyR"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Vvn-zq-N8z"/>
+                        <segue destination="2uy-HS-N5J" kind="relationship" relationship="viewControllers" id="iuP-r5-BpX"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bpp-U9-F3b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="440" y="284"/>
-        </scene>
-        <!--资讯-->
-        <scene sceneID="bu2-of-j8b">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gBb-ZJ-I3i" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="资讯" image="information" id="yvf-iJ-HYe"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Na1-yj-H0w">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ebc-ZV-GjT"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VV1-CL-eaD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1163" y="284"/>
+            <point key="canvasLocation" x="234.66666666666666" y="268.85333333333335"/>
         </scene>
     </scenes>
     <resources>
-        <image name="information" width="30" height="30"/>
+        <image name="information" width="18" height="18"/>
+        <image name="my" width="18" height="18"/>
+        <image name="searchicon" width="30" height="30"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>

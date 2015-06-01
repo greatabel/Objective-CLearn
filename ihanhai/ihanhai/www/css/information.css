@@ -1,0 +1,115 @@
+body {
+    padding: 50px 0 30px;
+}
+
+#nav{width:100%;height:100%; position:absolute;margin:0 auto; list-style:none}
+#nav li{float:left}
+#nav li a {padding:15px 5%;display:block;text-decoration:none;}
+#nav li a:hover{background:#333333;border-bottom:4px;color:#FFFFFF}
+
+.mylist{
+	padding-left:5px;padding-right:5px;
+}
+
+.mytitle {
+	font-size: 14px;
+	font-weight:bold;
+	color: black;
+}
+.mysummary{
+	font-size: 13px;
+	color: #646464;
+
+}
+
+.mylabel{
+	margin-top:-5px;
+}
+
+.mylastrow{
+	font-size: 12px;
+	color: #646464;
+	
+}
+
+.hot{
+	color:red;
+}
+.newest{
+	color:#5BA0D9;
+}
+
+
+.infor_bq a{ font-size: 13px; color: rgba(0, 0, 0, 0.5); background-color:#F5F5F5; text-decoration:none; display:block; float:left; padding:2px 4px; border:1px solid #F5F5F5; border-radius:35px; margin-right:15px;}
+.infor_bq a:hover{color:#999;}
+
+
+.background {
+    background:url('../images/test.jpg');
+    position: relative;
+    width: 120px;
+    height: 90px;
+}
+
+.layer {
+    /*background-color: rgba(248, 247, 216, 0.7);*/
+    background-color: black;
+    opacity: 0.3;
+    color:white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.chosed{
+	color:red;
+}
+
+#navcontainer{width:350px}
+#navlist
+		{
+			margin: 0;
+			padding: 0 0 20px 3px;
+			border-bottom: 1px solid #F5F5F5;
+		}
+		
+		#navlist ul, #navlist li
+		{
+			margin: 0;
+			padding: 0;
+			display: inline;
+			list-style-type: none;
+		}
+		
+		#navlist a:link, #navlist a:visited
+		{
+			float: left;
+			line-height: 14px;
+			margin: 0 5px 4px 5px;
+			/* www.webdm.cn */
+			text-decoration: none;
+			color: #999;
+		}
+		
+		#navlist a:link#current, #navlist a:visited#current, #navlist a:hover
+		{
+			border-bottom: 1px solid red;
+			padding-bottom: 5px;
+			color: red;
+			/*background: transparent;*/
+			/*color: #fff;*/
+		}
+.abelChoose
+		{
+			border-bottom: 1px solid red;
+			padding-bottom: 5px;
+			color: red !important;
+			/*background: transparent;*/
+			/*color: #fff;*/
+		}
+
+
+

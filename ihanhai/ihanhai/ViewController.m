@@ -24,14 +24,18 @@
 //    NSURL *url = [NSURL URLWithString:strURL];
 //    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
 //    [self.webview loadRequest:urlRequest];
+//    
+    self.tabBarItem.badgeValue = @"10";
     
-//    self.tabBarItem.badgeValue = @"10";
     
+    UIImage *select = [UIImage imageNamed:@"informationChoose"];
     
-//
-//    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"www"]];
-//     [self.webview setScalesPageToFit:YES];
-//     [self.webview loadRequest:[NSURLRequest requestWithURL:url]];
+    self.tabBarItem.selectedImage = [select imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"information" ofType:@"html" inDirectory:@"www"]];
+     [self.webview setScalesPageToFit:YES];
+     [self.webview loadRequest:[NSURLRequest requestWithURL:url]];
 }
 
 - (void)didReceiveMemoryWarning {
