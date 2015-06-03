@@ -33,7 +33,8 @@
     self.tabBarItem.selectedImage = [select imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
 
-    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"information" ofType:@"html" inDirectory:@"www"]];
+//    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"information" ofType:@"html" inDirectory:@"www"]];
+      NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"iscroll-5-pull-to-refresh-and-infinite-demo" ofType:@"html" inDirectory:@"www/iscroll5"]];
      [self.webview setScalesPageToFit:YES];
      [self.webview loadRequest:[NSURLRequest requestWithURL:url]];
 }
