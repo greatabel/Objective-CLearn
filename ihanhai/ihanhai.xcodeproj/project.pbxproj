@@ -17,6 +17,7 @@
 		B58E574A1B0F14820026F22C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58E57481B0F14820026F22C /* LaunchScreen.xib */; };
 		B58E57561B0F14820026F22C /* ihanhaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B58E57551B0F14820026F22C /* ihanhaiTests.m */; };
 		B58E58101B15B2070026F22C /* www in Resources */ = {isa = PBXBuildFile; fileRef = B58E580F1B15B2070026F22C /* www */; };
+		B58E62DD1B202732006DA09D /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58E62DC1B202732006DA09D /* SearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		B58E57551B0F14820026F22C /* ihanhaiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ihanhaiTests.m; sourceTree = "<group>"; };
 		B58E575F1B0F18A40026F22C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B58E580F1B15B2070026F22C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		B58E62DB1B202732006DA09D /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		B58E62DC1B202732006DA09D /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		D156AB00F9D164D5078FDFFD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -114,6 +117,8 @@
 				B58E575F1B0F18A40026F22C /* PrefixHeader.pch */,
 				B5260D571B170F6100615E01 /* InformationViewController.h */,
 				B5260D581B170F6100615E01 /* InformationViewController.m */,
+				B58E62DB1B202732006DA09D /* SearchViewController.h */,
+				B58E62DC1B202732006DA09D /* SearchViewController.m */,
 			);
 			path = ihanhai;
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 			files = (
 				B58E57421B0F14820026F22C /* ViewController.m in Sources */,
 				B58E573F1B0F14820026F22C /* AppDelegate.m in Sources */,
+				B58E62DD1B202732006DA09D /* SearchViewController.m in Sources */,
 				B58E573C1B0F14820026F22C /* main.m in Sources */,
 				B5260D591B170F6100615E01 /* InformationViewController.m in Sources */,
 			);

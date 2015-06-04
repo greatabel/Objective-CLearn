@@ -1,34 +1,26 @@
 //
 //  ViewController.m
-//  ihanhai
+//  testNavigator
 //
-//  Created by liwei on 15/5/22.
-//  Copyright (c) 2015年 company. All rights reserved.
+//  Created by liwei on 15/6/3.
+//  Copyright (c) 2015年 abelOrg. All rights reserved.
 //
 
 #import "ViewController.h"
 
 @interface ViewController ()
 
-
-
-
 @end
 
 @implementation ViewController
 
 - (IBAction)myclick:(UIBarButtonItem *)sender {
-    [self performSegueWithIdentifier:@"gotoSearch_segue" sender:self];
+    [self performSegueWithIdentifier:@"test_segue" sender:self];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-//    NSString *strURL = @"http://www.baidu.com";
-//    NSURL *url = [NSURL URLWithString:strURL];
-//    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
-//    [self.webview loadRequest:urlRequest];
-//
     self.navigationController.navigationBar.barTintColor = [UIColor blueColor];
     self.navigationController.navigationBar.translucent = NO;
     
@@ -41,7 +33,7 @@
     label.text = @"招融宝";
     self.navigationItem.titleView = label;
     
-    UIImage* image3 = [UIImage imageNamed:@"searchicon"];
+    UIImage* image3 = [UIImage imageNamed:@"search"];
     CGRect frameimg = CGRectMake(0, 0, image3.size.width, image3.size.height);
     UIButton *someButton = [[UIButton alloc] initWithFrame:frameimg];
     [someButton setBackgroundImage:image3 forState:UIControlStateNormal];
@@ -52,18 +44,21 @@
     UIBarButtonItem *mailbutton =[[UIBarButtonItem alloc] initWithCustomView:someButton];
     self.navigationItem.rightBarButtonItem=mailbutton;
     
-    self.tabBarItem.badgeValue = @"10";
+      NSString *strURL = @"http://www.baidu.com";
+        NSURL *url = [NSURL URLWithString:strURL];
+        NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
+        [self.webView loadRequest:urlRequest];
+//    mailbutton.target = self;
+//    mailbutton.action = @selector(myclick:);
+////    [self performSegueWithIdentifier:@"test_segue" sender:self];
     
-    
-    UIImage *select = [UIImage imageNamed:@"informationChoose"];
-    
-    self.tabBarItem.selectedImage = [select imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    
+    //    UIBarButtonItem *_btn=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"Untitled.png"]
+//                                                          style:UIBarButtonItemStylePlain
+//                                                         target:self
+//                                                         action:@selector(yourMethod)];
+//    
+//    self.navigationItem.rightBarButtonItem=_btn;
 
-//    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"information" ofType:@"html" inDirectory:@"www"]];
-      NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"iscroll-5-pull-to-refresh-and-infinite-demo" ofType:@"html" inDirectory:@"www/iscroll5"]];
-     [self.webview setScalesPageToFit:YES];
-     [self.webview loadRequest:[NSURLRequest requestWithURL:url]];
 }
 
 - (void)didReceiveMemoryWarning {
