@@ -9,7 +9,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nwC-Qj-3MQ"/>
@@ -38,6 +37,7 @@
                         <segue destination="iVs-lj-4Aa" kind="push" identifier="gotoSearch_segue" id="Rtk-YR-K3p"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1204" y="268"/>
         </scene>
@@ -54,7 +54,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="62f-CJ-Sau">
-                                <rect key="frame" x="0.0" y="-54" width="320" height="573"/>
+                                <rect key="frame" x="0.0" y="-62" width="320" height="573"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
@@ -63,11 +63,31 @@
                     <navigationItem key="navigationItem" id="17h-hg-5Fw"/>
                     <connections>
                         <outlet property="searchView" destination="62f-CJ-Sau" id="01Z-lB-KZU"/>
+                        <segue destination="NrN-lg-BcX" kind="push" identifier="goto_wordSearch" id="zVo-XP-jrI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RLA-p6-7zs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1635" y="263"/>
+            <point key="canvasLocation" x="1642" y="254"/>
+        </scene>
+        <!--Search Word View Controller-->
+        <scene sceneID="uZ7-ND-FJ5">
+            <objects>
+                <viewController id="NrN-lg-BcX" customClass="SearchWordViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wKS-Mj-G4S"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Vc-jv-q7e"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lgx-az-WKo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sr2-fo-rGH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6k3-He-1wr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2054" y="245"/>
         </scene>
         <!--Item-->
         <scene sceneID="uBe-Ce-jVr">

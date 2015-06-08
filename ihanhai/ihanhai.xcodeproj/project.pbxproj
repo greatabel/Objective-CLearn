@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9108D7BAAA6A6805164459A6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D156AB00F9D164D5078FDFFD /* libPods.a */; };
 		B5260D591B170F6100615E01 /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5260D581B170F6100615E01 /* InformationViewController.m */; };
+		B566CEDB1B217C0A005F9207 /* SearchWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B566CEDA1B217C0A005F9207 /* SearchWordViewController.m */; };
 		B58E573C1B0F14820026F22C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B58E573B1B0F14820026F22C /* main.m */; };
 		B58E573F1B0F14820026F22C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B58E573E1B0F14820026F22C /* AppDelegate.m */; };
 		B58E57421B0F14820026F22C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58E57411B0F14820026F22C /* ViewController.m */; };
@@ -35,6 +36,8 @@
 		91670E864AC1C176E0FD60B0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B5260D571B170F6100615E01 /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
 		B5260D581B170F6100615E01 /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
+		B566CED91B217C0A005F9207 /* SearchWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchWordViewController.h; sourceTree = "<group>"; };
+		B566CEDA1B217C0A005F9207 /* SearchWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchWordViewController.m; sourceTree = "<group>"; };
 		B58E57361B0F14820026F22C /* ihanhai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ihanhai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58E573A1B0F14820026F22C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B58E573B1B0F14820026F22C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -119,6 +122,8 @@
 				B5260D581B170F6100615E01 /* InformationViewController.m */,
 				B58E62DB1B202732006DA09D /* SearchViewController.h */,
 				B58E62DC1B202732006DA09D /* SearchViewController.m */,
+				B566CED91B217C0A005F9207 /* SearchWordViewController.h */,
+				B566CEDA1B217C0A005F9207 /* SearchWordViewController.m */,
 			);
 			path = ihanhai;
 			sourceTree = "<group>";
@@ -295,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B566CEDB1B217C0A005F9207 /* SearchWordViewController.m in Sources */,
 				B58E57421B0F14820026F22C /* ViewController.m in Sources */,
 				B58E573F1B0F14820026F22C /* AppDelegate.m in Sources */,
 				B58E62DD1B202732006DA09D /* SearchViewController.m in Sources */,
