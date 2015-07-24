@@ -17,6 +17,17 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@ | %@",s,s2);
         NSString *s3 = s;
         NSLog(@"s3=%@, %d, %@", s3,(s==s3) ,(s==s3 ? @"YES":@"NO"));
+        
+        NSLog(@"输出stack space------");
+        //http://stackoverflow.com/questions/550195/is-it-possible-to-nslog-c-structs-like-cgrect-or-cgpoint
+        CGRect rect1 = CGRectMake(100, 100, 100, 100);
+        CGRect rect2 = CGRectMake(190, 190, 100, 100);
+        
+        NSLog(@"%@", CGRectCreateDictionaryRepresentation(rect1));
+        NSLog(@"%@", CGRectCreateDictionaryRepresentation(rect2));
+        
+
+
     }
     return 0;
 }
