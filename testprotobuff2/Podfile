@@ -1,0 +1,1 @@
+pod 'GoogleProtobuf', '~> 2.6.0'
