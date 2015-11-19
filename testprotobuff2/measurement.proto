@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+message Measurement {
+  // store 12 bits pixels.
+  // image[0]: low 8 bits of pixel[0]
+  // image[1]: high 4 bits of pixle[0] at low 4 bits; low 4 bits of pixle[1] at high 4 bits
+  // image[2]: high 8 bits of pixel[2]
+  optional bytes image = 1;
+  optional bool side_a = 2;
+  optional bool side_b = 3;
+}

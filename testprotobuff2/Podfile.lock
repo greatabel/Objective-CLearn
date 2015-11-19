@@ -1,10 +1,10 @@
 PODS:
-  - GoogleProtobuf (2.6.1)
+  - ProtocolBuffers (1.9.9.2)
 
 DEPENDENCIES:
-  - GoogleProtobuf (~> 2.6.0)
+  - ProtocolBuffers
 
 SPEC CHECKSUMS:
-  GoogleProtobuf: 6f0dd22a96385c13bb9b8e6e5b66e81a93e17f58
+  ProtocolBuffers: 7111461618460961e6b7469177ec45ee551b4f0e
 
 COCOAPODS: 0.39.0
