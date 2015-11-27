@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-
+#import "test.h"
 
 @interface ViewController ()
 
@@ -19,6 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    test *t = [[test alloc]init];
+    [t doSomething];
+    
+    
+
 }
 
 - (void)didReceiveMemoryWarning {

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2028760E1BFDAC22001C139C /* Measurement.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 2028760D1BFDAC22001C139C /* Measurement.pb.m */; };
-		205E02CB1BFB42BD005FF0D9 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 205E02CA1BFB42BD005FF0D9 /* test.m */; };
+		205E02CB1BFB42BD005FF0D9 /* test.mm in Sources */ = {isa = PBXBuildFile; fileRef = 205E02CA1BFB42BD005FF0D9 /* test.mm */; };
 		20629B141BE84DD400D8C150 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629B131BE84DD400D8C150 /* main.m */; };
 		20629B171BE84DD400D8C150 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629B161BE84DD400D8C150 /* AppDelegate.m */; };
 		20629B1A1BE84DD400D8C150 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629B191BE84DD400D8C150 /* ViewController.m */; };
@@ -22,7 +22,7 @@
 		2028760C1BFDAC22001C139C /* Measurement.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measurement.pb.h; sourceTree = SOURCE_ROOT; };
 		2028760D1BFDAC22001C139C /* Measurement.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Measurement.pb.m; sourceTree = SOURCE_ROOT; };
 		205E02C91BFB42BD005FF0D9 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
-		205E02CA1BFB42BD005FF0D9 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		205E02CA1BFB42BD005FF0D9 /* test.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = test.mm; sourceTree = "<group>"; };
 		20629B0F1BE84DD400D8C150 /* testprotobuff2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testprotobuff2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20629B131BE84DD400D8C150 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20629B151BE84DD400D8C150 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 				20629B231BE84DD400D8C150 /* Info.plist */,
 				20629B121BE84DD400D8C150 /* Supporting Files */,
 				205E02C91BFB42BD005FF0D9 /* test.h */,
-				205E02CA1BFB42BD005FF0D9 /* test.m */,
+				205E02CA1BFB42BD005FF0D9 /* test.mm */,
 			);
 			path = testprotobuff2;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 				20629B171BE84DD400D8C150 /* AppDelegate.m in Sources */,
 				2028760E1BFDAC22001C139C /* Measurement.pb.m in Sources */,
 				20629B141BE84DD400D8C150 /* main.m in Sources */,
-				205E02CB1BFB42BD005FF0D9 /* test.m in Sources */,
+				205E02CB1BFB42BD005FF0D9 /* test.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
