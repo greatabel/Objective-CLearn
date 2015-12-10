@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+#import "Person.h"
 @interface ViewController ()
 
 @end
@@ -22,6 +23,8 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    Person *p1 = [Person personWithName:@"Abel"];
+    [p1 sayHello];
 }
 
 @end

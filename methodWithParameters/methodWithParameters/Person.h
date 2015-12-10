@@ -10,4 +10,9 @@
 
 @interface Person : NSObject
 
+
+@property (copy) NSString *name;
+
+- (void) sayHello;
++ (Person *)personWithName:(NSString *)name;
 @end

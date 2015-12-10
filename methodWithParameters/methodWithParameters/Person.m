@@ -10,4 +10,14 @@
 
 @implementation Person
 
+-(void)sayHello {
+    NSLog(@"HELLO!!");
+}
+
++(Person *)personWithName:(NSString *)name {
+    Person *person = [[Person alloc]init];
+    person.name = name ;
+    return person;
+}
+
 @end
