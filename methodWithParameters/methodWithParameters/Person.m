@@ -16,7 +16,8 @@
 
 +(Person *)personWithName:(NSString *)name {
     Person *person = [[Person alloc]init];
-    person.name = name ;
+    NSString *tempstr = [name stringByAppendingString:@" # add something by personWithName!"];
+    person.name = tempstr ;
     return person;
 }
 
