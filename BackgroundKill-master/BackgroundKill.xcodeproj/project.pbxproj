@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2047FAB11C18945000379402 /* LARGE_elevation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2047FAB01C18945000379402 /* LARGE_elevation.jpg */; };
 		623D2EE2182FB2D500441E5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623D2EE1182FB2D500441E5C /* Foundation.framework */; };
 		623D2EE4182FB2D500441E5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623D2EE3182FB2D500441E5C /* CoreGraphics.framework */; };
 		623D2EE6182FB2D500441E5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623D2EE5182FB2D500441E5C /* UIKit.framework */; };
@@ -22,7 +23,6 @@
 		623D2F06182FB2D600441E5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623D2EE5182FB2D500441E5C /* UIKit.framework */; };
 		623D2F0E182FB2D600441E5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 623D2F0C182FB2D600441E5C /* InfoPlist.strings */; };
 		623D2F10182FB2D600441E5C /* BackgroundKillTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 623D2F0F182FB2D600441E5C /* BackgroundKillTests.m */; };
-		623D2F1A182FB3C400441E5C /* LARGE_elevation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 623D2F19182FB3C400441E5C /* LARGE_elevation.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2047FAB01C18945000379402 /* LARGE_elevation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LARGE_elevation.jpg; sourceTree = "<group>"; };
 		623D2EDE182FB2D500441E5C /* BackgroundKill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundKill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		623D2EE1182FB2D500441E5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		623D2EE3182FB2D500441E5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,7 +57,6 @@
 		623D2F0B182FB2D600441E5C /* BackgroundKillTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BackgroundKillTests-Info.plist"; sourceTree = "<group>"; };
 		623D2F0D182FB2D600441E5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		623D2F0F182FB2D600441E5C /* BackgroundKillTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundKillTests.m; sourceTree = "<group>"; };
-		623D2F19182FB3C400441E5C /* LARGE_elevation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LARGE_elevation.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,13 +116,13 @@
 		623D2EE7182FB2D500441E5C /* BackgroundKill */ = {
 			isa = PBXGroup;
 			children = (
+				2047FAB01C18945000379402 /* LARGE_elevation.jpg */,
 				623D2EF0182FB2D500441E5C /* BKAppDelegate.h */,
 				623D2EF1182FB2D500441E5C /* BKAppDelegate.m */,
 				623D2EF3182FB2D500441E5C /* Main_iPhone.storyboard */,
 				623D2EF6182FB2D500441E5C /* Main_iPad.storyboard */,
 				623D2EF9182FB2D500441E5C /* BKViewController.h */,
 				623D2EFA182FB2D500441E5C /* BKViewController.m */,
-				623D2F19182FB3C400441E5C /* LARGE_elevation.jpg */,
 				623D2EFC182FB2D500441E5C /* Images.xcassets */,
 				623D2EE8182FB2D500441E5C /* Supporting Files */,
 			);
@@ -239,7 +239,7 @@
 				623D2EFD182FB2D500441E5C /* Images.xcassets in Resources */,
 				623D2EF5182FB2D500441E5C /* Main_iPhone.storyboard in Resources */,
 				623D2EEC182FB2D500441E5C /* InfoPlist.strings in Resources */,
-				623D2F1A182FB3C400441E5C /* LARGE_elevation.jpg in Resources */,
+				2047FAB11C18945000379402 /* LARGE_elevation.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +479,7 @@
 				623D2F15182FB2D600441E5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		623D2F16182FB2D600441E5C /* Build configuration list for PBXNativeTarget "BackgroundKillTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +488,7 @@
 				623D2F18182FB2D600441E5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
