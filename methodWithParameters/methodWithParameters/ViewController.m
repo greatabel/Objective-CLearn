@@ -20,6 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     Person *p1 = [Person personWithName:@"Abel"];
     [p1 sayHello];
+    NSLog(@"name is: %@", p1.name);
 }
 
 - (void)didReceiveMemoryWarning {

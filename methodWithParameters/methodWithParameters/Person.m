@@ -12,12 +12,13 @@
 
 -(void)sayHello {
     NSLog(@"HELLO!!");
+
 }
 
 +(Person *)personWithName:(NSString *)name {
     Person *person = [[Person alloc]init];
-    NSString *tempstr = [name stringByAppendingString:@" # add something by personWithName!"];
-    person.name = tempstr ;
+
+    person.name = [NSString stringWithFormat:@"%@/%@/%@", name, @"###", @"@@@"];
     return person;
 }
 
