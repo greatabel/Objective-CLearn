@@ -13,6 +13,7 @@
 		2047FAC91C197A8600379402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2047FAC71C197A8600379402 /* Main.storyboard */; };
 		2047FACB1C197A8600379402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2047FACA1C197A8600379402 /* Assets.xcassets */; };
 		2047FACE1C197A8600379402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2047FACC1C197A8600379402 /* LaunchScreen.storyboard */; };
+		2047FAD71C197AD500379402 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047FAD61C197AD500379402 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2047FACA1C197A8600379402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2047FACD1C197A8600379402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2047FACF1C197A8600379402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2047FAD51C197AD500379402 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2047FAD61C197AD500379402 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				2047FACC1C197A8600379402 /* LaunchScreen.storyboard */,
 				2047FACF1C197A8600379402 /* Info.plist */,
 				2047FABE1C197A8600379402 /* Supporting Files */,
+				2047FAD51C197AD500379402 /* Person.h */,
+				2047FAD61C197AD500379402 /* Person.m */,
 			);
 			path = methodWithParameters;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				2047FAC61C197A8600379402 /* ViewController.m in Sources */,
 				2047FAC31C197A8600379402 /* AppDelegate.m in Sources */,
+				2047FAD71C197AD500379402 /* Person.m in Sources */,
 				2047FAC01C197A8600379402 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
