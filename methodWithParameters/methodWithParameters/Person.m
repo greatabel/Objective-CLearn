@@ -22,7 +22,7 @@
     return person;
 }
 
-+ (NSString *)testMethod:(Byte[])inputbytes {
++ (NSString *)pbDecodeMethod:(Byte[])originalbytes {
 
     return @"test";
 }

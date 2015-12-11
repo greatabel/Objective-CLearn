@@ -16,6 +16,6 @@
 - (void) sayHello;
 + (Person *)personWithName:(NSString *)name;
 
-+ (NSString *)testMethod:(Byte[])inputbytes;
++ (NSString *)pbDecodeMethod:(Byte[])originalbytes;
 
 @end
