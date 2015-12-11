@@ -22,4 +22,9 @@
     return person;
 }
 
++ (NSString *)testMethod:(Byte[])inputbytes {
+
+    return @"test";
+}
+
 @end

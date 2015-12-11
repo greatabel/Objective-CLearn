@@ -15,4 +15,7 @@
 
 - (void) sayHello;
 + (Person *)personWithName:(NSString *)name;
+
++ (NSString *)testMethod:(Byte[])inputbytes;
+
 @end
