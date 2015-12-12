@@ -24,6 +24,15 @@
 
 + (NSString *)pbDecodeMethod:(Byte[])originalbytes {
 
+
+    NSMutableData *buffer = [NSMutableData data];
+    [buffer appendBytes:originalbytes length:199*sizeof(Byte)];
+
+    long len1 = [buffer length];
+    NSLog(@"%ld",len1);
+    char raw1[len1];
+    [buffer getBytes:raw1 length:len1];
+
     return @"test";
 }
 
