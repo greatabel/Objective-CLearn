@@ -29,7 +29,7 @@
     [buffer appendBytes:originalbytes length:199*sizeof(Byte)];
 
     long len1 = [buffer length];
-    NSLog(@"%ld",len1);
+    NSLog(@"%ld is len in pbDecodeMethod",len1);
     char raw1[len1];
     [buffer getBytes:raw1 length:len1];
 
