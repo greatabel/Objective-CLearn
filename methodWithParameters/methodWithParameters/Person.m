@@ -17,7 +17,6 @@
 
 +(Person *)personWithName:(NSString *)name {
     Person *person = [[Person alloc]init];
-
     person.name = [NSString stringWithFormat:@"%@/%@/%@", name, @"###", @"@@@"];
     return person;
 }
